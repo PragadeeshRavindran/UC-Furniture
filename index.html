@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="body">
+    <div class="heading">
+      <h1>Polish Price Calculator</h1>
+    </div>
+    <p class="options__heading">
+      <b>Enter The Details Of Polishing</b>
+    </p>
+    <div class="inputs">
+      <div class="input">
+        <p>Sq Ft. to be Polished</p>
+
+        <input type="text" name="sqFtPol" value="" id="sqFtPol">
+      </div>
+
+      <div class="input">
+        <p>Running Ft. to be Polished</p>
+
+        <input type="text" name="runFtPol" value="" id="runFtPol">
+      </div>
+
+    </div>
+
+    <div class="calculate">
+      <a href="javascript:void(0)" onclick="calculate()">Calculate</a>
+    </div>
+
+    <div class="results">
+      <p class="options__heading">
+        <b>Polishing Final Cost</b>
+      </p>
+
+      <div class="result">
+        <p>
+          Option
+        </p>
+        <p>
+          Cost
+        </p>
+
+      </div>
+
+      <div class="result">
+        <p>
+          PU Polish
+        </p>
+        <p class="price">
+          Rs <span id="puPolish"> 0</span>
+        </p>
+      </div>
+      <div class="result">
+        <p>
+          Melamine Polish
+        </p>
+        <p class="price">
+          Rs <span id="melaminePolish">0</span>
+        </p>
+
+      </div>
+      <div class="result">
+        <p>
+          Lac/Sealer Polish
+        </p>
+        <p class="price">
+          Rs <span id="lacPolish">0</span>
+        </p>
+
+      </div>
+    </div>
+
+
+
+  </div>
+  <div class="footer">
+    <img src="https://res.cloudinary.com/urbanclap/image/upload/images/growth/home-screen/1631097450980-d2de38.png" alt="">
+  </div>
+
+  <script src="main.js" charset="utf-8"></script>
+
+</body>
+</html>
